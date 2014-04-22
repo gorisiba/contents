@@ -16,4 +16,4 @@ $(window).resize(function(){
 
 $(window).resize(function(){
 	var window_height = $(window).innerHeight();
-});
+}); 
