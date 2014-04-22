@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<!-- ここからCSS -->
+<link rel="styleSheet" type="text/css" href="css/topStyle.css">
+<link rel="styleSheet" type="text/css" href="css/commonStyle.css">
+<link rel="styleSheet" type="text/css" href="css/introStyle.css">
+<link rel="styleSheet" type="text/css" href="css/memberStyle.css">
+<link rel="styleSheet" type="text/css" href="css/activeStyle.css">
+<link rel="styleSheet" type="text/css" href="css/abstStyle.css">
+<!--ここまでcss -->
+
+<!-- ここからプラグイン -->
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="JS/Plugin/jQuery-mousewheel.js"></script><!-- マウスホイールjQueryプラグイン -->
+<script type="text/javascript" src="JS/Plugin/modernizr.custom.69101.js"></script><!-- クロスブラウザ用プラグイン -->
+<!-- ここまでプラグイン -->
+
+
+<!--　ここからjavascript -->
+<script type="text/javascript" src="JS/scroll_event.js"></script>
+<script type="text/javascript" src="JS/insidelink_event.js"></script>
+<script type="text/javascript" src="JS/resize_event.js"></script>
+<script type="text/javascript" src="JS/readbody_event.js"></script>
+<script type="text/javascript" src="JS/member_scroll.js"></script>
+<script type="text/javascript" src="JS/background_event.js"></script>
+<!-- ここまでjavascript -->
+
+</head>
+<body style="overflow-y: hidden;">
+<div id="wrap">
+	<!-- ここからヘッダ -->
+	<!-- 対応ブラウザ: IE9.0以上　Firefox 25.0以上　GoogleChrome 31.0以上 -->
+
+	<div id="intro_header">
+	<div id="header_wrap">
+		<img src="images/test/img_logo.png" class="ITC_icon"></img>
+		<img id="ITC_String" src="images/header_string.png"></img>
+		<!-- ここからメニューリスト -->
+		<div>
+			<ul>
+				<li><div id="btn1" class="menuicon_frame">ページTOP</div></li>
+				<li><div id="btn2" class="menuicon_frame">部活概要</div></li>
+				<li><div id="btn3" class="menuicon_frame">活動紹介</div></li>
+				<li><div id="btn4" class="menuicon_frame">部員紹介</div></li>
+			</ul>
+		</div>
+		<div id="debug"></div>
+		<!-- メニューリスト終了 -->
+	</div>
+ 	</div>
+	<!-- ここまでヘッダ -->
+
+	<img id="background_skin" src="images/background_oic.png"></img>
+	<!-- ここからメインコンテンツ -->
+		<div id="inclusion_maincontents">
+		<!-- ここから個別メニュー -->
+		
+		<!-- メニュー１(top)開始 -->
+		<div id="menu1_top" class="mainarea_common">
+
+			<!-- キャッチコピー -->
+			<img id="vcatch" src="images/TitleLogo.png" class="vcatch"></img>
+			<!-- キャッチコピー終了 -->
+			
+			<!-- 更新情報 -->
+			<div id="whatsnew">
+				<ul>
+					<li>
+						2014/04/01&nbsp;
+						<a href="test.html" target="_blank">祝！　活動一周年記念！</a>
+					</li>
+					<li>
+						2013/12/01&nbsp;
+						<a href="test.html" target="_blank">ホームページ作成開始！</a>
+					</li>
+					<li>
+						2013/12/01&nbsp;
+						<a href="test.html" target="_blank">ホームページ作成始動！</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 更新情報終了 -->
+		</div>
+		<!-- メニュー１終了 -->
+		
+		<!-- メニュー２開始 -->
+		<div id="menu2_abst" class="mainarea_common">
+			<div id="obj1">
+				<h1>自分達で話し、学び、創造する</h1>
+				<p>ITC部はシステム開発の部活動です。</p>
+				<p></p>
+				<p></p>
+				<p>システム開発に興味のある方、ないしは学習の進め方がわからなくて困っている方―</p>
+				<p>ITC部に参加し、今より一歩進んだ開発を体験しませんか。</p>
+				
+				<div>
+					<p>活動日時　：　毎週　月曜日・木曜日　16:30～</p>
+					<p>場所　：　8A教室</p>
+				</div>
+
+			</div>
+		</div>
+		<!-- メニュー２終了 -->
+		
+		<!-- メニュー３開始 -->
+		<div id="menu3_action" class="mainarea_common db">
+			<div id="area2" class = "actionflame">
+				<h2>開発報告・会議</h2>
+				<ul id = "big" class = "profiles">
+				<li>
+				<img class = "sagyou" src = "images/test/fuukei.jpg">
+				</img>
+				<ul class = "info">
+				<li>成果を報告します</>
+				<li>作品の構想について話し合います</li>
+				</ul>
+				</li>
+				</ul>
+			</div>
+
+			<div id="area1" class = "actionflame">
+				<h2>アプリ・ソフト開発</h2>
+				<ul id = "big" class = "profiles">
+				<li>
+				<img class= "sagyou" src = "images/test/fujii.jpg">
+				</img>
+				<ul class = "info">
+				<li>話し合ったことをもとにプログラミングを行っていきます。</li>
+				<li></li>
+				</ul>
+				</li>
+				</ul>
+			</div>
+
+
+				
+			<div id="area3" class = "actionflame">
+				<h2>作品出展</h2>
+				<ul id = "big" class = "profiles">
+				<li>
+				<img class = "sagyou" src = "images/test/sakuhin.jpg">
+				<ul class = "info">
+				<li>学内のコンテストに出展します</>
+				<li>課外行事にも積極的に参加します</li>
+				</ul>
+				</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- メニュー３終了 -->
+		
+		<!-- メニュー４開始 -->
+		<div id="menu4_member" class="mainarea_common">
+			<!-- メニュー４内ウインドウ -->
+
+			<div id="member_window_wrap">
+				<img id="charactor" src="images/standby.png"></img>
+				<img id="window_frame" src="images/window00.png"></img>
+				<!-- メンバーのプロフィールウインドウ -->
+				<div id="personaldata_window">
+					<!-- ウインドウ左側：項目名 -->
+					<div id="profile_subjects">
+						<div class="subject_name">Name:</div>
+						<div class="subject_name">Grade:</div>
+						<div class="subject_name">Course:</div>	
+						<div class="subject_name">Speciality:</div>
+						<div class="subject_name">Comment:</div>
+					</div>
+					<!-- 項目名終了 -->
+
+					<!-- ウインドウ右側:項目 -->	
+					<div id="myprofile">
+						<div id="personaldata_name" class="personaldata"> </div>
+						<div id="personaldata_grade" class="personaldata"> </div>
+						<div id="personaldata_course"> </div>
+						<div id="personaldata_speciality"> </div>
+						<div id="personaldata_comment"> </div>
+					</div>
+					<!-- 項目終了 -->
+				</div>
+				<!-- ここまでプロフィールウインドウ -->
+			</div>
+			<!-- ここまでウインドウ -->
+
+			
+			<!-- ここからメンバーアイコン -->
+			<div id="memberwindow">
+				<div id="scroll_upside">▲</div>
+				<div id="frame_left"></div>
+
+				<div id="memberwrap">
+					<div id="member1" class="type_member">member1</div>
+					<div id="member2" class="type_member">member2</div>
+					<div id="member3" class="type_member">member3</div>
+					<div id="member4" class="type_member">member4</div>
+					<div id="member5" class="type_member">member5</div>
+					<div id="member6" class="type_member">member6</div>
+					<div id="member7" class="type_member">member7</div>
+					<div id="member8" class="type_member">member8</div>
+					<div id="member9" class="type_member">member9</div>
+					<div id="member10" class="type_member">member10</div>
+					<div id="member11" class="type_member">member11</div>
+					<div id="member12" class="type_member">member12</div>
+				</div>
+				
+				<div id="frame_right"></div>
+				<div id="scroll_downside">▼</div>
+			</div>
+			<!-- ここまでメンバーアイコン -->
+			
+		</div>
+		<!-- メニュー４終了 -->
+	</div>
+	<!-- ここまでメインコンテンツ -->
+	
+	<!-- ここからフッタ -->
+	<div id="footer_wrap">
+		<div id="copyright" class="copyright">
+			● Copyright &copy;  2013	OIC - 大阪情報コンピュータ専門学校 ITCreate部<br>
+			All Right Reserved.
+		</div>
+	</div>
+	<!-- ここまでフッタ -->
+</div>
+</body>
+</html>
